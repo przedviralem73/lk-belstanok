@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>BELSTANOK</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.min.css?_v=20250329104442">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+	<header data-scroll="150" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header__top-block">
+						<div class="header__info">
+							<img class="header__info-img" src="img/header/info.svg" alt="#">
+							<p class="header__info-text"><span>О нас</span> <img class="header__top-arrow" src="img/header/arrow.svg" alt="#"></p>
+							<ul class="sub-list">
+								<li><a href="#">компании</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Реквизиты</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="header__car">
+							<img class="header__car-img" src="img/header/car.svg" alt="#">
+							<p class="header__car-text"><span>Доставка и оплата</span> <img class="header__top-arrow" src="img/header/arrow.svg" alt="#"></p>
+							<ul class="sub-list">
+								<li><a href="#">Доставка транспортной компанией</a></li>
+								<li><a href="#">Самовывоз</a></li>
+								<li><a href="#">Оплата по реквизитам</a></li>
+								<li><a href="#">Оплата онлайн</a></li>
+								<li><a href="#">Наличными (в кассе банка)</a></li>
+							</ul>
+						</div>
+						<div data-spollers="992,max data-spollers class=" header__phone">
+							<div class="header__phone">
+								<button type="button" data-spoller class="header__phone-text" style="font-size: smaller">Контакты <img class="header__top-arrow" src="img/header/arrow.svg" alt="#"></button>
+								<div class="sub-list sub-list--phone">
+									<div class="sub-list__block">
+										<p class="sub-list__text">Обработка заявок круглосуточно</p>
+										<a href="tel:71234567890" class="sub-list__phone"><picture><source srcset="img/header/bil.webp" type="image/webp"><img src="img/header/bil.png" alt="#"></picture>+7
+											(123)
+											456-78-90</a>
+										<a href="tel:71234567890" class="sub-list__phone"><picture><source srcset="img/header/mts.webp" type="image/webp"><img src="img/header/mts.png" alt="#"></picture>+7
+											(123)
+											456-78-90</a>
+										<a class="sub-list__mail" href="mailto:belstanok@info.ru"><picture><source srcset="img/header/sub-message.webp" type="image/webp"><img src="img/header/sub-message.png" alt=""></picture>
+											belstanok@info.ru</a>
+									</div>
+									<div class="sub-list__buttons">
+										<a href="#" class="sub-list__button sub-list__button--green"><picture><source srcset="img/header/whatsap.webp" type="image/webp"><img src="img/header/whatsap.png" alt="#"></picture><span>WhatsApp</span></a>
+										<a href="#" class="sub-list__button "><picture><source srcset="img/header/telega.webp" type="image/webp"><img src="img/header/telega.png" alt="#"></picture><span>Telegram</span></a>
+
+									</div>
+									<div class="sub-list__block">
+										<div class="sub-list__addres">
+											<picture><source srcset="img/header/local.webp" type="image/webp"><img src="img/header/local.png" alt="#"></picture>
+											<p class="sub-list__text">г.Минск, 1-й Твёрдый
+												переулок, 11к3, 1-й этаж</p>
+
+										</div>
+										<div class="sub-list__clock">
+											<picture><source srcset="img/header/clock.webp" type="image/webp"><img src="img/header/clock.png" alt="#"></picture>
+											<p class="sub-list__text">
+												<strong>График работы офиса</strong>
+												Пн-Пт 8:00 - 18:00
+												Сб 9:30 - 16:30
+												Вс 10:00 - 15:00 (Прием
+												заявок.Офис и склад не
+												работает)
+												пн-пт 9:00 - 18:00
+												(Выписка документов ТН и
+												ТТН для юр. лиц)
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-da=".menu, 992" class="header__top-block header__top-block--phone">
+						<div class="header__mail">
+							<img class="header__phone-img" src="img/header/phone.svg" alt="#">
+							<a href="tel:71234567890" class="header__mail-text">+7 (123) 456-78-90</a>
+						</div>
+						<!-- <div class="header__phone">
+					<img class="header__phone-img" src="img/header/phone.svg" alt="#">
+					<a href="tel:79267095126" class="header__phone-text">Доставка и оплата <img class="header__top-arrow"
+							src="img/header/arrow.svg" alt="#"></a>
+					<div class="sub-list sub-list--phone">
+						<div class="sub-list__block">
+							<p class="sub-list__text">Обработка заявок круглосуточно</p>
+							<a href="tel:71234567890" class="sub-list__phone"><picture><source srcset="img/header/bil.webp" type="image/webp"><img src="img/header/bil.png" alt="#"></picture>+7 (123)
+								456-78-90</a>
+							<a href="tel:71234567890" class="sub-list__phone"><picture><source srcset="img/header/mts.webp" type="image/webp"><img src="img/header/mts.png" alt="#"></picture>+7 (123)
+								456-78-90</a>
+							<a class="sub-list__mail" href="mailto:belstanok@info.ru"><img src="img/header/sub-message.png"
+									alt="">
+								belstanok@info.ru</a>
+						</div>
+						<div class="sub-list__buttons">
+							<a href="#" class="sub-list__button sub-list__button--green"><img src="img/header/whatsap.png"
+									alt="#"><span>Перейти в WhatsApp</span></a>
+							<a href="#" class="sub-list__button "><picture><source srcset="img/header/telega.webp" type="image/webp"><img src="img/header/telega.png" alt="#"></picture><span>Перейти в
+									Telegram</span></a>
+
+						</div>
+						<div class="sub-list__block">
+							<div class="sub-list__addres">
+								<picture><source srcset="img/header/local.webp" type="image/webp"><img src="img/header/local.png" alt="#"></picture>
+								<p class="sub-list__text">г.Минск, 1-й Твёрдый
+									переулок, 11к3, 1-й этаж</p>
+
+							</div>
+							<div class="sub-list__clock">
+								<picture><source srcset="img/header/clock.webp" type="image/webp"><img src="img/header/clock.png" alt="#"></picture>
+								<p class="sub-list__text">
+									<strong>График работы офиса</strong>
+									Пн-Пт 8:00 - 18:00
+									Сб 9:30 - 16:30
+									Вс 10:00 - 15:00 (Прием
+									заявок.Офис и склад не
+									работает)
+									пн-пт 9:00 - 18:00
+									(Выписка документов ТН и
+									ТТН для юр. лиц)
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+
+				</div>
+				<div class="header__main-body">
+					<div class="header__first">
+						<div class="header__first-sec" style="display: none"></div>
+						<div class="header__first-third">
+							<a href="#">
+								<div class="header__first-third-tg">
+									<picture><source srcset="img/header/telegram.webp" type="image/webp"><img src="img/header/telegram.png" alt=""></picture>
+								</div>
+							</a>
+							<a href="#">
+								<div class="header__first-third-wh">
+									<picture><source srcset="img/header/whatsapp.webp" type="image/webp"><img src="img/header/whatsapp.png" alt=""></picture>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="header__main">
+						<a data-da=".header__first, 768,0" href="#" class="header__logo"><img src="img/header/logo.svg" alt="#">
+
+						</a>
+						<button class="header__catalog">
+							<img class="header__catalog-icon" src="img/header/catalog.svg" alt="#">
+							<p class="header__catalog-text">КАТАЛОГ</p>
+
+						</button>
+						<form class="header__search">
+							<input autocomplete="off" type="text" name="search" placeholder="Поиск по сайту" class="header__search-input input">
+							<button class="header__search-button" type="submit"><picture><source srcset="img/header/search.webp" type="image/webp"><img src="img/header/search.png" alt="#"></picture></button>
+						</form>
+						<div class="header__tools">
+							<!-- <button class="header__money">
+						<img src="img/header/money.svg" alt="#">
+					</button> -->
+							<button data-da=".header__first-sec, 768,0" class="header__bookmark">
+								<img src="img/header/bookmark.svg" alt="">
+
+							</button>
+						</div>
+						<a data-popup="#popup" data-da=".header__first-sec, 768,0" href="#" class="header__login">
+							Войти
+						</a>
+						<button style="z-index: 100;" data-da=".header__logo, 768" type="button" class="menu__icon icon-menu icon-menu-mob"><span></span></button>
+
+					</div>
+
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">% Акции</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Аукцион</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Новинки</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Деревообработка</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Металлообработка</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Кузнечно-прессовое</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Пищевое</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Силовая техника</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- это католог , что бы добавить под меню нужно свзять для button data-parent="4" а под меню data-submenu="4"(и не забывает в кнопке должна быть arrow) -->
+				<nav class="header__catalog-body catalog-header">
+					<h2 class="catalog-header__title">
+						<button class="menu-catalog__back-main" style="position: relative; top: 7px"><picture><source srcset="img/header/angle-small-down.webp" type="image/webp"><img src="img/header/angle-small-down.png" alt="#"></picture></button>
+						Каталог
+						<button class="menu-catalog__back-main close-force" style="position: relative; top: 7px"><picture><source srcset="img/header/cross-small.webp" type="image/webp"><img src="img/header/cross-small.png" alt="#" style="filter: brightness(0.6)"></picture></button>
+					</h2>
+					<div class="catalog-header__search">
+						<form class="header__search">
+							<input autocomplete="off" type="text" name="search" placeholder="Поиск в каталоге" class="header__search-input input">
+							<button class="header__search-button" type="submit">
+								<picture><source srcset="img/header/search.webp" type="image/webp"><img src="img/header/search.png" alt="Поиск"></picture>
+							</button>
+						</form>
+					</div>
+					<ul class="catalog-header__menu">
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/01.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/01.png" alt="#"></picture>
+							<button data-parent="1">
+								Дерево­обрабатывающее
+								оборудование
+								<picture><source srcset="img/catalog/arrow.webp" type="image/webp"><img class="catalog-header__item-arrow" src="img/catalog/arrow.png" alt="#"></picture>
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+
+							<picture><source srcset="img/catalog/02.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/02.png" alt="#"></picture>
+
+							<button data-parent="2">
+								Металло­обрабатывающее
+								оборудование
+								<picture><source srcset="img/catalog/arrow.webp" type="image/webp"><img class="catalog-header__item-arrow" src="img/catalog/arrow.png" alt="#"></picture>
+
+							</button>
+
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/03.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/03.png" alt="#"></picture>
+							<button data-parent="3">
+								Кузнечно-прессовое
+								оборудование
+								<picture><source srcset="img/catalog/arrow.webp" type="image/webp"><img class="catalog-header__item-arrow" src="img/catalog/arrow.png" alt="#"></picture>
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/04.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/04.png" alt="#"></picture>
+							<button>
+								Пищевое оборудование
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/05.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/05.png" alt="#"></picture>
+							<button>
+								Силовая техника
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/06.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/06.png" alt="#"></picture>
+							<button>
+								Упаковочное оборудование
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/07.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/07.png" alt="#"></picture>
+							<button>
+								Оборудование для СТО
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/08.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/08.png" alt="#"></picture>
+							<button>
+								Полиграфическое
+								оборудование
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/09.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/09.png" alt="#"></picture>
+							<button>
+								Оборудование легкой
+								промышленности
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/10.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/10.png" alt="#"></picture>
+							<button>
+								Оборудование для
+								производства окон
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/11.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/11.png" alt="#"></picture>
+							<button>
+								Сварочное оборудование
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/12.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/12.png" alt="#"></picture>
+							<button>
+								Стекло­обрабатывающее
+								оборудование
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/13.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/13.png" alt="#"></picture>
+							<button>
+								Оборудование для
+								производства тротуарной
+								плитки
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item">
+							<picture><source srcset="img/catalog/14.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/14.png" alt="#"></picture>
+							<button>
+								Окрасочное оборудование
+
+							</button>
+
+						</li>
+						<li class="catalog-header__item catalog-header__item-hide">
+							<picture><source srcset="img/catalog/15.webp" type="image/webp"><img class="catalog-header__item-icon" src="img/catalog/15.png" alt="#"></picture>
+							<button>
+								Акции
+
+							</button>
+
+						</li>
+
+
+					</ul>
+					<div class="catalog-header__sub-menu">
+						<div hidden data-submenu="1" class="catalog-header__sub-list-body sub-menu-catalog__block">
+							<h3>Инструменты</h3>
+							<ul class="catalog-header__sub-list">
+								<li><a href="#">Аккумуляторныйинструментинструментинструментинструмент инструмент</a></li>
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">USB адаптеры (523)</a></li>
+
+								<li><a href="#">Аккумуляторные (523)</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+							</ul>
+						</div>
+						<div hidden data-submenu="2" class="catalog-header__sub-list-body sub-menu-catalog__block">
+							<h3>Инструменты 2</h3>
+							<ul class="catalog-header__sub-list">
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+								<li><a href="#">Аккумуляторный инструмент</a></li>
+
+
+
+							</ul>
+						</div>
+						<div hidden data-submenu="3" class="catalog-header__sub-list-body sub-menu-catalog__block">
+							<h3>Инструменты 3</h3>
+							<ul class="catalog-header__sub-list">
+								<li><a href="#"> инструмент</a></li>
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+
+								<li><a href="#"> инструмент</a></li>
+
+								<li><a href="#"> инструмент</a></li>
+
+
+
+
+
+
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<div class="menu-phone">
+					<div class="menu-phone__item">
+						<a href="#" class="menu-phone__button">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill-rule="evenodd" d="M13.1 4.3a2 2 0 0 0-2.2 0l-6 4A2 2 0 0 0 4 10v9c0 .6.4 1 1 1h3.5v-4c0-1.1.9-2 2-2h3a2 2 0 0 1 2 2v4H19c.6 0 1-.4 1-1v-9a2 2 0 0 0-.9-1.7l-6-4ZM9.8 2.7a4 4 0 0 1 4.4 0l6 4A4 4 0 0 1 22 10v9a3 3 0 0 1-3 3h-3.5a2 2 0 0 1-2-2v-4h-3v4a2 2 0 0 1-2 2H5a3 3 0 0 1-3-3v-9a4 4 0 0 1 1.8-3.3l6-4Z" clip-rule="evenodd"></path>
+							</svg>
+							<p>Главная</p>
+						</a>
+					</div>
+					<div class="menu-phone__item">
+						<a href="#" class="menu-phone__button button-menu-phone ">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="">
+								<path fill-rule="evenodd" d="M24 12a8 8 0 0 1-2.8 6l1.6 2.5a1 1 0 0 1-1.6 1l-1.6-2.3A8 8 0 1 1 24 12Zm-2 0a6 6 0 1 1-12 0 6 6 0 0 1 12 0ZM1 6a1 1 0 0 0 0 2h5a1 1 0 0 0 0-2H1Zm0 5a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2H1Zm-1 6c0-.6.4-1 1-1h5a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1Z" clip-rule="evenodd"></path>
+							</svg>
+							<p>Каталог</p>
+						</a>
+					</div>
+					<div class="menu-phone__item">
+						<a href="#" class="menu-phone__button">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+								<path d="M17,4v14.967l-4.212-1.805L12,16.824l-0.788,0.338L7,18.967V4H17 M17,2H7C5.9,2,5,2.9,5,4v18l7-3l7,3V4C19,2.9,18.1,2,17,2 L17,2z">
+								</path>
+							</svg>
+							<p>Избранное</p>
+						</a>
+					</div>
+					<div class="menu-phone__item">
+						<a href="tel:+71234567890" class="menu-phone__button">
+							<img src="img/header/phone.svg" alt="#">
+							<p>Телефоны</p>
+						</a>
+					</div>
+					<div class="menu-phone__item">
+						<a href="#" class="menu-phone__button">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill-rule="evenodd" d="M9.5 7.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0ZM12 3a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9ZM4.9 20.4a7.9 7.9 0 0 1 14.2 0 1 1 0 1 0 1.8-.8 9.9 9.9 0 0 0-17.8 0 1 1 0 1 0 1.8.8Z" clip-rule="evenodd"></path>
+							</svg>
+							<p>Профиль</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
