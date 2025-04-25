@@ -96,9 +96,11 @@ h6 {
 Сніппет (HTML): cnt
 */
 [class*=__container] {
-  max-width: 75rem;
   margin: 0 auto;
-  padding: 0 0.9375rem;
+  max-width: 1392px;
+  min-width: 320px;
+  padding: 0 32px;
+  width: 100%;
 }
 
 input[type=text],
