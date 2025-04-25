@@ -278,7 +278,7 @@ header{
 }
 
 .personal-account__grid {
-		padding: 0px 0px 0px 36px;
+		padding: 0px 0px 0px 0px;
 		max-width: 100%;
 		flex-wrap: wrap;
 		display: flex;
