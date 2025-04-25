@@ -23,7 +23,7 @@ header{
 .sidebar-left {
 	min-width: 270px;
     height: 100vh;
-    padding: 16px 0px 0px 16px;
+    padding: 16px 0px 0px 0px;
     background-color: #fff;
   }
 
@@ -154,7 +154,7 @@ header{
 
   .sidebar-right{
 	position: relative;
-	min-width: 280px;
+	min-width: 180px;
     margin-left: 10px;
   }
 
